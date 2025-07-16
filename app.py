@@ -23,7 +23,7 @@ def gen_response(question, engine, temperature, max_token):
     answer = chain.invoke({'question': question})
     return answer
 
-st.title("Basic Q&A Chatbot with Ollama")
+st.title("Basic Q&A Chatbot with Ollama by Rohan B")
 
 st.sidebar.title("Settings")
 engine = st.sidebar.selectbox("Select the OpenAI Model", ['gemma:2b'])
